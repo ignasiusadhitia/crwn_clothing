@@ -1,6 +1,6 @@
 import React from "react";
 import { connect } from "react-redux";
-import { createStructuredSelector, StructuredSelectorCreator } from "reselect";
+import { createStructuredSelector } from "reselect";
 import { withRouter } from "react-router-dom";
 import CustomButton from "../custom-button/custom-button.component";
 import CartItem from "../cart-item/cart-item.component";
